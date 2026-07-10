@@ -1,6 +1,6 @@
 # experiments/train_e2e.py
 """
-能跑
+能跑111
 
 端到端微调 - 匹配旧版预训练权重 (hidden_dim=512)/256
 v7版本是用512训练的
