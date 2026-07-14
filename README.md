@@ -328,12 +328,6 @@ Four-stage heuristic verification:
 
 ---
 
-## License
-
-MIT License
-
----
-
 ## Citation
 
 ```bibtex
