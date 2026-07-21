@@ -2,7 +2,9 @@
 
 A **type-aware hypergraph neural network** framework for causal reasoning in video stories. This framework constructs causal hypergraphs with three semantic hyperedge types (MO/OM/CO), combined with hyperedge-aware retrieval and hierarchical readout mechanisms to enable multi-cause and multi-effect reasoning in complex narrative videos.
 
----
+> **Data Notice**: This repository contains the code and MTO/OMT test set annotations for CausalHyperGraph. The experiments are conducted on the publicly available StoryVideoQA dataset (Wu et al., IJCV 2026). The MTO-Test and OMT-Test sets are manually annotated subsets focusing on many-to-one and one-to-many causal reasoning.
+
+
 
 ## Key Features
 
@@ -325,22 +327,3 @@ Four-stage heuristic verification:
 - **Pipeline Parallelism**: CPU preprocessing parallelized with GPU encoding
 - **Density Control**: `max_mo_ratio` / `max_om_ratio` prevent overly dense graphs
 - **Adaptive Time Window**: Automatically adjusts causal window by video genre (drama/suspense/comedy/epic)
-
----
-
-## License
-
-MIT License
-
----
-
-## Citation
-
-```bibtex
-@article{causalhypergraph2025,
-  title={CausalHyperGraph: Type-Aware Hypergraph Neural Networks for Video Story Causal Reasoning},
-  author={Your Name},
-  journal={arXiv preprint},
-  year={2025}
-}
-```
