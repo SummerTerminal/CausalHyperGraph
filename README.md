@@ -1,5 +1,7 @@
 # CausalHyperGraph
 
+**Pre-constructed Hypergraphs:** https://doi.org/10.5281/zenodo.21464810
+
 A **type-aware hypergraph neural network** framework for causal reasoning in video stories. This framework constructs causal hypergraphs with three semantic hyperedge types (MO/OM/CO), combined with hyperedge-aware retrieval and hierarchical readout mechanisms to enable multi-cause and multi-effect reasoning in complex narrative videos.
 
 > **Data Notice**: This repository contains the code and MTO/OMT test set annotations for CausalHyperGraph. The experiments are conducted on the publicly available StoryVideoQA dataset (Wu et al., IJCV 2026). The MTO-Test and OMT-Test sets are manually annotated subsets focusing on many-to-one and one-to-many causal reasoning.
